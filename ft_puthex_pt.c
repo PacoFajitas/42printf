@@ -6,7 +6,7 @@
 /*   By: tfiguero <tfiguero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/17 14:25:11 by tfiguero          #+#    #+#             */
-/*   Updated: 2023/05/21 17:24:55 by tfiguero         ###   ########.fr       */
+/*   Updated: 2025/09/20 13:01:43 by tfiguero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,13 +17,9 @@ int	ft_puthex_pt(unsigned long long nb, int maj, int ret)
 	char	*base;
 
 	if (maj == 1)
-	{
 		base = "0123456789abcdef";
-	}
-	else if (maj == 0)
-	{
+	else 
 		base = "0123456789ABCDEF";
-	}
 	if (nb > 15)
 	{
 		ret = ft_puthex_pt(nb / 16, maj, ret);

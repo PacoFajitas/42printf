@@ -6,7 +6,7 @@
 #    By: tfiguero <tfiguero@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/05/16 16:22:01 by tfiguero          #+#    #+#              #
-#    Updated: 2023/05/20 22:47:05 by tfiguero         ###   ########.fr        #
+#    Updated: 2025/09/20 12:48:34 by tfiguero         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -51,7 +51,7 @@ $(NAME)::
 -include $(DEP)
 
 clean:
-	$(RM) $(OBJ)
+	$(RM) $(OBJ) $(DEP) $(OBJ_DIR) 
 
 fclean:
 	@$(MAKE) clean

@@ -6,7 +6,7 @@
 /*   By: tfiguero <tfiguero@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/16 16:48:00 by tfiguero          #+#    #+#             */
-/*   Updated: 2023/05/21 17:30:25 by tfiguero         ###   ########.fr       */
+/*   Updated: 2025/09/20 12:45:36 by tfiguero         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,12 +65,3 @@ int	ft_printf(char const *s, ...)
 	return (ret);
 }
 
-/* #include <stdio.h>
- int	main(void)
-{
-	int a;
-	a = ft_printf("%d", 10);
-	printf("%d", a);
-}   */
-
-/*Crear variable len para retornar la cantidad de caracteres escritos*/
